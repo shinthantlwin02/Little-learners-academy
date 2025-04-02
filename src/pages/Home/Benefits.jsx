@@ -4,6 +4,7 @@ import { BenefitsData } from "../../data/data";
 const Benefits = () => {
   return (
     <div className="py-20">
+      {/* header */}
       <div className="flex flex-col items-center mb-32">
         <div className="bg-[#FFFFFF] px-3 py-2 border-2 border-black rounded-lg w-fit mb-4">
           <p className="outfit-medium text-[#333333] text-xs md:text-sm 2xl:text-lg text-center">
@@ -19,12 +20,13 @@ const Benefits = () => {
           foundation for your child's future.
         </p>
       </div>
+      {/* header end */}
 
       <div className="grid grid-cols-3 gap-x-12 gap-y-20 container mx-auto">
         {BenefitsData.map((data) => (
           <div
             key={data.id}
-            className="bg-white border-2 border-[#262626] pt-16 2xl:pt-20 pb-10 px-10 rounded-lg relative shadow-[8px_8px_0px_1px_rgba(30,30,30,1)]"
+            className="bg-white border-2 border-[#262626] pt-16 2xl:pt-20 pb-10 px-10 rounded-lg relative shadow-[6px_6px_0px_1px_rgba(30,30,30,1)]"
           >
             <h1 className="raleway-bold text-[#1A1A1A] text-2xl 2xl:text-[28px] mb-4">
               {data.title}

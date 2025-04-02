@@ -38,7 +38,7 @@ const Hero = () => {
             environment, fostering a love for learning that lasts a lifetime.
             Join us as we embark on an exciting educational journey together!
           </p>
-          <div className="bg-[#FFEFE5] flex items-center gap-6 2xl:gap-10 rounded-xl border-2 border-[#262626] px-10 py-6 shadow-[8px_8px_0px_1px_rgba(255,190,153,1)]">
+          <div className="bg-[#FFEFE5] flex items-center gap-6 2xl:gap-10 rounded-xl border-2 border-[#262626] px-10 py-6 shadow-[6px_6px_0px_1px_rgba(255,190,153,1)]">
             <div>
               <h1 className="outfit-extrabold text-2xl 2xl:text-[44px] mb-1 text-[#262626]">
                 +7000
