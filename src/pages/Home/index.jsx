@@ -1,14 +1,14 @@
-import React from 'react'
-import Hero from './Hero'
-import Benefits from './Benefits'
+import React from "react";
+import Hero from "./Hero";
+import Benefits from "./Benefits";
 
 const Home = () => {
   return (
-    <div>
+    <div className="bg-[#FFF5F0]">
       <Hero />
       <Benefits />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
