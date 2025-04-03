@@ -3,7 +3,7 @@ import { BenefitsData } from "../../data/data";
 
 const Benefits = () => {
   return (
-    <div className="py-20">
+    <div className="py-20 max-md:px-4">
       {/* header */}
       <div className="flex flex-col items-center mb-32">
         <div className="bg-[#FFFFFF] px-3 py-2 border-2 border-black rounded-lg w-fit mb-4">

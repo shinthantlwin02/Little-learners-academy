@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Navbar = () => {
-  const [activeNavItem, setActiveNavItem] = useState(null);
+  const [activeNavItem, setActiveNavItem] = useState(1);
   return (
     <div className="flex justify-between max-md:items-center rounded-lg border-2 bg-[#FF8D4D] md:bg-white border-[#262626] mx-10 h-16">
       <div className="bg-[#FF8D4D] flex items-center gap-2 px-4 h-full rounded-s-md">

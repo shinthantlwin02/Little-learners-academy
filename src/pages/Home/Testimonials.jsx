@@ -23,15 +23,15 @@ const Testimonials = () => {
       {/* header end */}
 
       {/* slider */}
-      <div className="flex items-center gap-6">
-        <button className="bg-white p-4 border-2 border-[#333333] rounded-lg">
-          <img src="/icons/arrow-left.svg" alt="arrow-left" className="w-16" />
+      <div className="flex items-center gap-2 md:gap-6">
+        <button className="bg-white p-2 md:p-4 border-2 border-[#333333] rounded-lg">
+          <img src="/icons/arrow-left.svg" alt="arrow-left" className="min-w-5 md:w-16" />
         </button>
         <div className="flex gap-10 2xl:gap-12 xl:ps-4 2xl:ps-5 overflow-x-scroll scrollbar-hide scroll-smooth py-10">
           {TestimonialsData.map((data) => (
             <div
               key={data.id}
-              className="min-w-full md:min-w-[30%] bg-white border-2 border-[#262626] p-8 2xl:p-10 rounded-lg relative shadow-[6px_6px_0px_1px_rgba(30,30,30,1)] flex flex-col items-center"
+              className="min-w-[96%] md:min-w-[30%] bg-white border-2 border-[#262626] p-8 2xl:p-10 rounded-lg relative shadow-[6px_6px_0px_1px_rgba(30,30,30,1)] flex flex-col items-center"
             >
               <div className="bg-[#FFF5F0] border border-[#333333] rounded-full p-2 w-fit">
                 <img src={data.profile} alt="profile" className="mb-2" />
@@ -52,11 +52,11 @@ const Testimonials = () => {
             </div>
           ))}
         </div>
-        <button className="bg-white p-4 border-2 border-[#333333] rounded-lg">
+        <button className="bg-white p-2 md:p-4 border-2 border-[#333333] rounded-lg">
           <img
             src="/icons/arrow-right.svg"
             alt="arrow-right"
-            className="w-16"
+            className="min-w-5 md:w-16"
           />
         </button>
       </div>
