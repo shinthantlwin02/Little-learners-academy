@@ -27,7 +27,7 @@ const Testimonials = () => {
         <button className="bg-white p-4 border-2 border-[#333333] rounded-lg">
           <img src="/icons/arrow-left.svg" alt="arrow-left" className="w-16" />
         </button>
-        <div className="flex gap-10 overflow-x-scroll scrollbar-hide scroll-smooth py-10">
+        <div className="flex gap-10 2xl:gap-12 xl:ps-4 2xl:ps-5 overflow-x-scroll scrollbar-hide scroll-smooth py-10">
           {TestimonialsData.map((data) => (
             <div
               key={data.id}

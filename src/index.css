@@ -9,6 +9,11 @@
   display: none; /* Chrome, Safari, Edge */
 }
 
+html{
+  padding: 0;
+  margin: 0;
+}
+
 /* Outfit Font Styles */
 .outfit-thin {
   font-family: "Outfit", sans-serif;

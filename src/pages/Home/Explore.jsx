@@ -21,28 +21,28 @@ const Explore = () => {
       </div>
       {/* header end */}
 
-      <div className="grid grid-cols-2 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         <div className="bg-white shadow-[6px_6px_0px_1px_rgba(30,30,30,1)] flex flex-col items-center p-16 rounded-lg">
           <h1 className="raleway-bold text-4xl 2xl:text-5xl mb-6">About Us</h1>
 
           <div className="flex items-center gap-4 mb-10">
             <div className="w-6 h-6 rounded-full bg-white border-2 -mr-6 z-10"></div>
-            <div className="py-1 pr-2 bg-[#FFBE99] w-[70px] h-fit">
+            <div className="py-1 pr-2 bg-[#FFBE99] w-10 md:w-[70px] h-fit">
               <hr className="border" />
             </div>
-            <div className="py-1 pr-2 bg-[#FFBE99] w-[70px] h-fit">
+            <div className="py-1 pr-2 bg-[#FFBE99] w-10 md:w-[70px] h-fit">
               <hr className="border" />
             </div>
-            <div className="py-1 pr-2 bg-[#FFBE99] w-[70px] h-fit">
+            <div className="py-1 pr-2 bg-[#FFBE99] w-10 md:w-[70px] h-fit">
               <hr className="border" />
             </div>
-            <div className="py-1 pr-2 bg-[#FFBE99] w-[70px] h-fit">
+            <div className="py-1 pr-2 bg-[#FFBE99] w-10 md:w-[70px] h-fit">
               <hr className="border" />
             </div>
-            <div className="py-1 pr-2 bg-[#FFBE99] w-[70px] h-fit">
+            <div className="py-1 pr-2 bg-[#FFBE99] w-10 md:w-[70px] h-fit">
               <hr className="border" />
             </div>
-            <div className="py-1 pr-2 bg-[#FFBE99] w-[70px] h-fit">
+            <div className="py-1 pr-2 bg-[#FFBE99] w-10 md:w-[70px] h-fit">
               <hr className="border" />
             </div>
             <div className="w-6 h-6 rounded-full bg-white border-2 -ml-6 z-10"></div>
@@ -64,22 +64,22 @@ const Explore = () => {
 
           <div className="flex items-center gap-4 mb-10">
             <div className="w-6 h-6 rounded-full bg-white border-2 -mr-6 z-10"></div>
-            <div className="py-1 pr-2 bg-[#FFBE99] w-[70px] h-fit">
+            <div className="py-1 pr-2 bg-[#FFBE99] w-10 md:w-[70px] h-fit">
               <hr className="border" />
             </div>
-            <div className="py-1 pr-2 bg-[#FFBE99] w-[70px] h-fit">
+            <div className="py-1 pr-2 bg-[#FFBE99] w-10 md:w-[70px] h-fit">
               <hr className="border" />
             </div>
-            <div className="py-1 pr-2 bg-[#FFBE99] w-[70px] h-fit">
+            <div className="py-1 pr-2 bg-[#FFBE99] w-10 md:w-[70px] h-fit">
               <hr className="border" />
             </div>
-            <div className="py-1 pr-2 bg-[#FFBE99] w-[70px] h-fit">
+            <div className="py-1 pr-2 bg-[#FFBE99] w-10 md:w-[70px] h-fit">
               <hr className="border" />
             </div>
-            <div className="py-1 pr-2 bg-[#FFBE99] w-[70px] h-fit">
+            <div className="py-1 pr-2 bg-[#FFBE99] w-10 md:w-[70px] h-fit">
               <hr className="border" />
             </div>
-            <div className="py-1 pr-2 bg-[#FFBE99] w-[70px] h-fit">
+            <div className="py-1 pr-2 bg-[#FFBE99] w-10 md:w-[70px] h-fit">
               <hr className="border" />
             </div>
             <div className="w-6 h-6 rounded-full bg-white border-2 -ml-6 z-10"></div>
@@ -103,22 +103,22 @@ const Explore = () => {
 
           <div className="flex items-center gap-4 mb-10">
             <div className="w-6 h-6 rounded-full bg-white border-2 -mr-6 z-10"></div>
-            <div className="py-1 pr-2 bg-[#FFBE99] w-[70px] h-fit">
+            <div className="py-1 pr-2 bg-[#FFBE99] w-10 md:w-[70px] h-fit">
               <hr className="border" />
             </div>
-            <div className="py-1 pr-2 bg-[#FFBE99] w-[70px] h-fit">
+            <div className="py-1 pr-2 bg-[#FFBE99] w-10 md:w-[70px] h-fit">
               <hr className="border" />
             </div>
-            <div className="py-1 pr-2 bg-[#FFBE99] w-[70px] h-fit">
+            <div className="py-1 pr-2 bg-[#FFBE99] w-10 md:w-[70px] h-fit">
               <hr className="border" />
             </div>
-            <div className="py-1 pr-2 bg-[#FFBE99] w-[70px] h-fit">
+            <div className="py-1 pr-2 bg-[#FFBE99] w-10 md:w-[70px] h-fit">
               <hr className="border" />
             </div>
-            <div className="py-1 pr-2 bg-[#FFBE99] w-[70px] h-fit">
+            <div className="py-1 pr-2 bg-[#FFBE99] w-10 md:w-[70px] h-fit">
               <hr className="border" />
             </div>
-            <div className="py-1 pr-2 bg-[#FFBE99] w-[70px] h-fit">
+            <div className="py-1 pr-2 bg-[#FFBE99] w-10 md:w-[70px] h-fit">
               <hr className="border" />
             </div>
             <div className="w-6 h-6 rounded-full bg-white border-2 -ml-6 z-10"></div>
@@ -142,22 +142,22 @@ const Explore = () => {
 
           <div className="flex items-center gap-4 mb-10">
             <div className="w-6 h-6 rounded-full bg-white border-2 -mr-6 z-10"></div>
-            <div className="py-1 pr-2 bg-[#FFBE99] w-[70px] h-fit">
+            <div className="py-1 pr-2 bg-[#FFBE99] w-10 md:w-[70px] h-fit">
               <hr className="border" />
             </div>
-            <div className="py-1 pr-2 bg-[#FFBE99] w-[70px] h-fit">
+            <div className="py-1 pr-2 bg-[#FFBE99] w-10 md:w-[70px] h-fit">
               <hr className="border" />
             </div>
-            <div className="py-1 pr-2 bg-[#FFBE99] w-[70px] h-fit">
+            <div className="py-1 pr-2 bg-[#FFBE99] w-10 md:w-[70px] h-fit">
               <hr className="border" />
             </div>
-            <div className="py-1 pr-2 bg-[#FFBE99] w-[70px] h-fit">
+            <div className="py-1 pr-2 bg-[#FFBE99] w-10 md:w-[70px] h-fit">
               <hr className="border" />
             </div>
-            <div className="py-1 pr-2 bg-[#FFBE99] w-[70px] h-fit">
+            <div className="py-1 pr-2 bg-[#FFBE99] w-10 md:w-[70px] h-fit">
               <hr className="border" />
             </div>
-            <div className="py-1 pr-2 bg-[#FFBE99] w-[70px] h-fit">
+            <div className="py-1 pr-2 bg-[#FFBE99] w-10 md:w-[70px] h-fit">
               <hr className="border" />
             </div>
             <div className="w-6 h-6 rounded-full bg-white border-2 -ml-6 z-10"></div>

@@ -6,7 +6,7 @@ import Banner from "./components/Banner";
 
 const App = () => {
   return (
-    <div className="bg-[#FFF5F0]">
+    <div className="bg-[#FFF5F0] py-4">
       <Banner />
       <Navbar />
       <Home />

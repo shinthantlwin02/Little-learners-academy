@@ -3,13 +3,13 @@ import React, { useState } from "react";
 const Navbar = () => {
   const [activeNavItem, setActiveNavItem] = useState(null);
   return (
-    <div className="flex justify-between rounded-lg border-2 bg-white border-[#262626] mx-10 h-16">
+    <div className="flex justify-between max-md:items-center rounded-lg border-2 bg-[#FF8D4D] md:bg-white border-[#262626] mx-10 h-16">
       <div className="bg-[#FF8D4D] flex items-center gap-2 px-4 h-full rounded-s-md">
         <img src="/icons/logo.svg" alt="logo" />
         <h1>Little Learners</h1>
       </div>
 
-      <div>
+      <div className="max-md:hidden">
         <button
           className={`${
             activeNavItem === 1 ? "bg-[#FFEFE5]" : "bg-white"
@@ -53,6 +53,10 @@ const Navbar = () => {
         <button className={`bg-[#FFAE80] px-4 h-full rounded-e-md`}>
           Contact
         </button>
+      </div>
+
+      <div className="md:hidden p-4">
+        <img src="/icons/burger-bar.png" alt="menu" className="w-8 h-8"/>
       </div>
     </div>
   );

@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="container mx-auto py-10">
-      <footer className="bg-white border-2 border-[#262626] shadow-[6px_6px_0px_1px_rgba(30,30,30,1)] rounded-xl pt-20 px-24 2xl:pt-[100px] 2xl:px-[113px] pb-10">
-        <div className="flex justify-between gap-10">
+    <div className="container mx-auto py-10 max-md:px-4">
+      <footer className="bg-white border-2 border-[#262626] shadow-[6px_6px_0px_1px_rgba(30,30,30,1)] rounded-xl pt-10 md:pt-20 px-8 md:px-24 2xl:pt-[100px] 2xl:px-[113px] pb-10">
+        <div className="flex flex-col md:flex-row justify-between gap-10">
           <div className="mr-20">
             <div className="flex items-center gap-3 mb-4">
               <img src="/icons/logo.svg" alt="logo" />
@@ -115,7 +115,7 @@ const Footer = () => {
 
         <hr className="border border-[#262626] w-full my-10" />
 
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col max-md:gap-4 md:flex-row md:items-center md:justify-between">
           <div className="flex items-center gap-2">
             <p className="outfit-medium text-[#333333] text-md 2xl:text-lg">
               Terms of Service
@@ -130,7 +130,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center max-md:justify-between gap-2">
             <img
               src="/icons/facebook.svg"
               alt="facebook"
