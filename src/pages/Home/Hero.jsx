@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="container mx-auto py-20">
-      <div className="flex items-center gap-10">
+      <div className="flex flex-col md:flex-row items-center gap-10">
         {/* left content */}
         <div className="relative bg-[#FFBE99] min-w-[665px] h-[685px] 2xl:min-w-[765px] 2xl:h-[785px] 2xl:max-h-[785px]">
           <img

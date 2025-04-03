@@ -31,7 +31,7 @@ const Testimonials = () => {
           {TestimonialsData.map((data) => (
             <div
               key={data.id}
-              className="min-w-[30%] bg-white border-2 border-[#262626] p-8 2xl:p-10 rounded-lg relative shadow-[6px_6px_0px_1px_rgba(30,30,30,1)] flex flex-col items-center"
+              className="min-w-full md:min-w-[30%] bg-white border-2 border-[#262626] p-8 2xl:p-10 rounded-lg relative shadow-[6px_6px_0px_1px_rgba(30,30,30,1)] flex flex-col items-center"
             >
               <div className="bg-[#FFF5F0] border border-[#333333] rounded-full p-2 w-fit">
                 <img src={data.profile} alt="profile" className="mb-2" />

@@ -24,8 +24,8 @@ const FAQ = () => {
       {/* header end */}
 
       {/* accordion */}
-      <div className="flex gap-10">
-        <div className="flex flex-col gap-y-5 w-[50%]">
+      <div className="flex flex-col md:flex-row gap-5 md:gap-10">
+        <div className="flex flex-col gap-y-5 w-full md:w-[50%]">
           {FAQDatas.slice(0, 4).map((data) => (
             <div
               onClick={() => setActiveAccordian(data.id)}
@@ -59,7 +59,7 @@ const FAQ = () => {
             </div>
           ))}
         </div>
-        <div className="flex flex-col gap-y-5 w-[50%]">
+        <div className="flex flex-col gap-y-5 w-full md:w-[50%]">
           {FAQDatas.slice(4, 9).map((data) => (
             <div
               onClick={() => setActiveAccordian(data.id)}

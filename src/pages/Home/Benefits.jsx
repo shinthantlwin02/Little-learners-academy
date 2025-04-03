@@ -22,7 +22,7 @@ const Benefits = () => {
       </div>
       {/* header end */}
 
-      <div className="grid grid-cols-3 gap-x-12 gap-y-20 container mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-y-10 md:gap-x-12 md:gap-y-20 container mx-auto">
         {BenefitsData.map((data) => (
           <div
             key={data.id}

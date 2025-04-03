@@ -55,7 +55,7 @@ const Explore = () => {
             education.
           </p>
 
-          <button className="flex gap-2 items-center bg-[#FFDECC] border-2 border-[#262626] rounded-lg p-4 w-full shadow-[6px_6px_0px_1px_rgba(30,30,30,1)] mt-auto">
+          <button className="flex gap-2 justify-center items-center bg-[#FFDECC] border-2 border-[#262626] rounded-lg p-4 w-full shadow-[6px_6px_0px_1px_rgba(30,30,30,1)] mt-auto">
             Learn More <img src="/icons/arrow-right.svg" />
           </button>
         </div>
@@ -92,7 +92,7 @@ const Explore = () => {
             and social development.
           </p>
 
-          <button className="flex gap-2 items-center bg-[#FFDECC] border-2 border-[#262626] rounded-lg p-4 w-full shadow-[6px_6px_0px_1px_rgba(30,30,30,1)] mt-auto">
+          <button className="flex gap-2 justify-center items-center bg-[#FFDECC] border-2 border-[#262626] rounded-lg p-4 w-full shadow-[6px_6px_0px_1px_rgba(30,30,30,1)] mt-auto">
             Learn More <img src="/icons/arrow-right.svg" />
           </button>
         </div>
@@ -131,7 +131,7 @@ const Explore = () => {
             experience truly memorable.
           </p>
 
-          <button className="flex gap-2 items-center bg-[#FFDECC] border-2 border-[#262626] rounded-lg p-4 w-full shadow-[6px_6px_0px_1px_rgba(30,30,30,1)] mt-auto">
+          <button className="flex gap-2 justify-center items-center bg-[#FFDECC] border-2 border-[#262626] rounded-lg p-4 w-full shadow-[6px_6px_0px_1px_rgba(30,30,30,1)] mt-auto">
             Learn More <img src="/icons/arrow-right.svg" />
           </button>
         </div>
@@ -170,7 +170,7 @@ const Explore = () => {
             spaces. 
           </p>
 
-          <button className="flex gap-2 items-center bg-[#FFDECC] border-2 border-[#262626] rounded-lg p-4 w-full shadow-[6px_6px_0px_1px_rgba(30,30,30,1)] mt-auto">
+          <button className="flex gap-2 justify-center items-center bg-[#FFDECC] border-2 border-[#262626] rounded-lg p-4 w-full shadow-[6px_6px_0px_1px_rgba(30,30,30,1)] mt-auto">
             Learn More <img src="/icons/arrow-right.svg" />
           </button>
         </div>

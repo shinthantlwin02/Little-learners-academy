@@ -7,7 +7,7 @@ import Explore from "./Explore";
 
 const Home = () => {
   return (
-    <div>
+    <div className="max-md:px-4">
       <Hero />
       <Benefits />
       <Testimonials />
